@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact</title>
+<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<!--  headerfile  --> 
+<div class="header">
+
+  <div class="menu-bar">
+    <ul>
+     <li class="active"> <a href="index.html"><div>Home</div></a></li>
+     <li><a href="about.html"><div>About Us</div></a> </li> 
+
+     <li><a class="menu-1" href="bikedetail.html"><div> Bikes</div></a>
+         <div class="sub-menu-1">
+            <ul>
+              <li class="hover-me" ><a href="bike1.html"><div>KTM 125 Duke</div></a></li>
+              <li class="hover-me" ><a href="bike2.html"><div>Royal Enfield Meteor 350</div></a></li>
+              <li  class="hover-me"><a href="bike3.html"><div>Yamaha YZF R15 V3</div></a></li>
+              <li  class="hover-me"><a href="bike4.html"><div>TVS Apache RTR 160 4V</div></a></li>
+              <li  class="hover-me"><a href="bike5.html"><div>Honda CB200X</div></a></li>
+            </ul>
+         </div>
+      </li>
+      <li><a href="contact.html"><div>Contact</div></a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="contact-detail">
+	<form action="process.php" method="post">
+<br><br>
+		<label for="name" >FIRSTNAME:</label><br>
+		<input type="name" name="name">
+    <br><br>
+		<label for="name" >LASTNAME:</label><br>
+		<input type="name" name="name">
+    <br><br>
+		<label for="name">D.O.B:</label><br>
+		<input type="date" name="date">
+   <br><br>
+		<label for="name">PHONE NO:</label><br>
+    <input type="number" name="number">
+    <br><br>
+		<label for="name" >EMAIL:</label><br>
+    <input type="email" name="email">
+    <br><br>
+		<label for="name" >PASWORD:</label><br>
+    <input type="password" name="password">
+    <br><br>
+
+		<label for="name">MESSAGE:</label><br>
+		<textarea type="message" id="message" cols="50" rows="10"></textarea>
+    <br>	<br>
+      <input type="submit" name="Submit"></input>
+	</form>
+</div>
+
+<footer style=" width: 100%; top: 700px; left:0; position: absolute; background: rgb(0,100,0); height: 90px;">
+  <h1 id="footer" style="color: white;margin:30px 0px 0px 150px;">© Copyright 2019. All Rights Reserved. | Bikers</h1>
+</footer>
+</body>
+</html>
